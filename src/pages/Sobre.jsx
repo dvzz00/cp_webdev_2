@@ -5,6 +5,7 @@ import { skillsData } from "../data/SkillsData";
 import { skillsImage } from "../utils/SkillsImage";
 import AboutImage from "../Assets/images/AboutImage.png";
 
+
 function About() {
   const { about } = UserData;
   return (
@@ -46,6 +47,7 @@ function About() {
           src={AboutImage}
           alt=""
         />
+        
       </div>
     </div>
   );

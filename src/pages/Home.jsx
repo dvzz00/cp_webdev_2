@@ -46,6 +46,14 @@ function Home() {
             })}
           </div>
         </div>
+
+        <div className="mt-20 lg:mt-12">
+          <img
+            className="max-w[550px] bg-cover bg-center bg-no-repeat lg:h-[400px] lg:w-[600px]"
+            src={imagedeveloper}
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );
